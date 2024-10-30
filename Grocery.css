@@ -1,0 +1,77 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #c00; /* Red theme color */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #c00;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #c00;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+/* Filters */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #c00;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Button Hover Effect */
+.search-bar button:hover {
+    background-color: #a00;
+}
